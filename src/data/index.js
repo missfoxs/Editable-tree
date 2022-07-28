@@ -1,9 +1,4 @@
-import { useState } from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import EditableTree from "./editable-tree";
-
-const data = [
+export default [
   {
     productCatagoryId: "1468461019837612033",
     generalKey: "Portable Power Stations",
@@ -99,13 +94,3 @@ const data = [
     accessory: true,
   },
 ];
-
-function App() {
-  return (
-    <div className="App">
-      <EditableTree treeData={data}></EditableTree>
-    </div>
-  );
-}
-
-export default App;

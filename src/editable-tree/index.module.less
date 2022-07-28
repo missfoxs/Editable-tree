@@ -1,0 +1,43 @@
+.editingNode {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  :global {
+    span {
+      margin-left: 5px;
+      font-size: 15px;
+    }
+  }
+}
+
+.displayedNode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  :global {
+    .operations {
+      span {
+        display: inline-block;
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+.dropdownMenu {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  :global {
+    p {
+      margin: 0;
+      padding: 5px 10px;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .lastItem {
+      border-bottom: none;
+    }
+  }
+}
